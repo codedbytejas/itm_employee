@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 const express = require("express");
 const db = require("./config/db");
 const employeeRouter = require("./router/employeeRouter");
